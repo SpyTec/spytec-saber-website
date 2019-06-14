@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "spytec-saber-website",
+  "license": "MIT",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "dev": "saber",
+    "build": "saber build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "saber": "^0.6.4",
+    "saber-plugin-query-posts": "^0.3.1",
+    "saber-theme-portfolio": "latest"
+  }
+}
