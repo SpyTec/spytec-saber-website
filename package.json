@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d public -t",
     "dev": "saber",
     "build": "saber build"
   },

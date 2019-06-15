@@ -17,6 +17,7 @@ module.exports = {
     twitter: 'SpyTec',
     sponsorLink: 'https://www.paypal.me/SpyTec',
     sponsorTip: 'Buy me a coffee',
+    projects: 'pinned-repos',
     nav: [
       {
         text: 'Home',
@@ -25,6 +26,10 @@ module.exports = {
       {
         text: 'About',
         link: '/about'
+      },
+      {
+        text: 'Posts',
+        link: '/posts'
       }
     ]
   },
@@ -39,4 +44,4 @@ module.exports = {
       resolve: 'saber-plugin-query-posts'
     }
   ]
-}
+};
