@@ -1,8 +1,8 @@
 workflow "Build and publish website" {
   on = "push"
   resolves = [
+    "master",
     "Deploy",
-    "Filters for GitHub Actions",
   ]
 }
 
@@ -18,7 +18,7 @@ action "build" {
 }
 
 action "master" {
-  uses = "actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da"
+  uses = "actions/bin/filter@master"
   needs = ["build"]
   args = "branch master"
 }
