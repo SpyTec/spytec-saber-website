@@ -17,5 +17,7 @@ action "build" {
 action "Deploy" {
   uses = "maxheld83/ghpages@v0.2.1"
   needs = ["build"]
-  secrets = ["PAT"]
+  secrets = [
+    "GH_PAT",
+  ]
 }
