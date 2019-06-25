@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "saber": "^0.6.4",
+    "saber": "^0.6.10",
     "saber-plugin-query-posts": "^0.3.1",
-    "saber-theme-portfolio": "latest"
+    "saber-theme-portfolio": "^0.1.11"
   }
 }
