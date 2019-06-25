@@ -7,7 +7,7 @@ module.exports = {
   theme: 'portfolio',
 
   siteConfig: {
-    title: 'SpyTec',
+    title: 'Eric Gustavsson',
     lang: 'en'
   },
   // Configure the theme
