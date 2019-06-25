@@ -16,6 +16,9 @@ action "build" {
 
 action "Deploy" {
   uses = "maxheld83/ghpages@v0.2.1"
+  env = {
+    BUILD_DIR = "public/"
+  }
   needs = ["build"]
   secrets = [
     "GH_PAT",
