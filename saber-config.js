@@ -8,7 +8,10 @@ module.exports = {
 
   siteConfig: {
     title: 'Eric Gustavsson',
-    lang: 'en'
+    lang: 'en',
+    url: 'https://spytec.se',
+    author: 'Eric Gustavson',
+    email: 'eric@spytec.se'
   },
   // Configure the theme
   themeConfig: {
@@ -42,6 +45,12 @@ module.exports = {
   plugins: [
     {
       resolve: 'saber-plugin-query-posts'
+    },
+    {
+      resolve: 'saber-plugin-feed',
+      options: {
+        atomFeed: true
+      }
     }
   ]
 };
