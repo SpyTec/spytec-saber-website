@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://spytec.se</id>
+    <title>Eric Gustavsson</title>
+    <updated>2019-07-28T08:46:38.750Z</updated>
+    <generator>Saber</generator>
+    <author>
+        <name>Eric Gustavson</name>
+        <email>eric@spytec.se</email>
+        <uri>https://spytec.se</uri>
+    </author>
+    <link rel="alternate" href="https://spytec.se"/>
+    <subtitle>Software Engineer at Red Hat. I like to create projects that ultimately get too big.</subtitle>
+    <rights>All rights reserved</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>/posts/hello-world</id>
+        <link href="https://spytec.se/posts/hello-world"/>
+        <updated>2019-07-28T08:45:41.044Z</updated>
+        <summary type="html"><![CDATA[It's been maybe 5 years since I last created a blog/website for myself. Figured I'd re-create one!
+Right now I'm an associate software engineer at Red Hat. My plan for this blog is to focus on topics
+I enjoy or problems I've solved that others could learn from.
+]]></summary>
+        <content type="html"><![CDATA[<p data-v-56306ed9>It's been maybe 5 years since I last created a blog/website for myself. Figured I'd re-create one!
+Right now I'm an associate software engineer at Red Hat. My plan for this blog is to focus on topics
+I enjoy or problems I've solved that others could learn from.</p> <p data-v-56306ed9>Apart from being a developer, I'm a gamer and a community moderator. I currently moderate communities of</p> <ul data-v-56306ed9><li data-v-56306ed9><a href="https://www.reddit.com/r/EliteDangerous" target="_blank" rel="noopener noreferrer" data-v-56306ed9>r/EliteDangerous</a></li> <li data-v-56306ed9><a href="https://www.reddit.com/r/PlanetZoo" target="_blank" rel="noopener noreferrer" data-v-56306ed9>r/PlanetZoo</a> (As well as the <a href="https://discord.gg/vAkVsak" target="_blank" rel="noopener noreferrer" data-v-56306ed9>r/PlanetZoo Discord</a>)</li> <li data-v-56306ed9><a href="https://www.reddit.com/r/redhat" target="_blank" rel="noopener noreferrer" data-v-56306ed9>r/redhat</a></li> <li data-v-56306ed9><a href="https://www.reddit.com/r/fedora" target="_blank" rel="noopener noreferrer" data-v-56306ed9>r/fedora</a></li></ul> <p data-v-56306ed9>With my primary focus on r/EliteDangerous and r/PlanetZoo.</p> <h2 id="what-is-it-build-on" data-v-56306ed9>What is it build on?</h2> <p data-v-56306ed9>My previous website was made using CodeIgniter, with my own styling, my own database queries, and a lot of issues.
+I was able to query websites by their query, display the most popular posts and tags, and I had my own cards for my projects.</p> <p data-v-56306ed9>This time around I'm not going to waste time on a blog post, instead I will use a tool which is simple and powerful - <a href="https://saber.land" target="_blank" rel="noopener noreferrer" data-v-56306ed9>Saber</a>.</p> <p data-v-56306ed9><a href="https://saber.land" target="_blank" rel="noopener noreferrer" data-v-56306ed9>Saber</a> is a static page generator built in <a href="https://vuejs.org" target="_blank" rel="noopener noreferrer" data-v-56306ed9>VueJS</a>, and the primary reason I chose this is because it is extremely versatile.
+It is essentially a Single Page Application that allows for VueJS and JavaScript within its Markdown pages. Like this:</p> <p data-v-56306ed9><button data-v-56306ed9>0</button></p> <p data-v-56306ed9>Which is just this in the template. Simple!</p> <div class="saber-highlight" data-lang="js" data-v-56306ed9><pre class="saber-highlight-code language-js" data-v-56306ed9><code class="language-js" data-v-56306ed9><span class="token operator" data-v-56306ed9>&lt;</span>button @click<span class="token operator" data-v-56306ed9>=</span><span class="token string" data-v-56306ed9>&quot;count++&quot;</span><span class="token operator" data-v-56306ed9>&gt;</span><span class="token punctuation" data-v-56306ed9>{</span><span class="token punctuation" data-v-56306ed9>{</span> count <span class="token punctuation" data-v-56306ed9>}</span><span class="token punctuation" data-v-56306ed9>}</span><span class="token operator" data-v-56306ed9>&lt;</span><span class="token operator" data-v-56306ed9>/</span>button<span class="token operator" data-v-56306ed9>&gt;</span>
+
+<span class="token operator" data-v-56306ed9>&lt;</span>script<span class="token operator" data-v-56306ed9>&gt;</span>
+<span class="token keyword" data-v-56306ed9>export</span> <span class="token keyword" data-v-56306ed9>default</span> <span class="token punctuation" data-v-56306ed9>{</span>
+  <span class="token function" data-v-56306ed9>data</span><span class="token punctuation" data-v-56306ed9>(</span><span class="token punctuation" data-v-56306ed9>)</span> <span class="token punctuation" data-v-56306ed9>{</span>
+    <span class="token keyword" data-v-56306ed9>return</span> <span class="token punctuation" data-v-56306ed9>{</span>
+      count<span class="token punctuation" data-v-56306ed9>:</span> <span class="token number" data-v-56306ed9>0</span>
+    <span class="token punctuation" data-v-56306ed9>}</span>
+  <span class="token punctuation" data-v-56306ed9>}</span>
+<span class="token punctuation" data-v-56306ed9>}</span>
+<span class="token operator" data-v-56306ed9>&lt;</span><span class="token operator" data-v-56306ed9>/</span>script<span class="token operator" data-v-56306ed9>&gt;</span></code></pre></div>]]></content>
+        <published>2019-06-14T13:00:00.000Z</published>
+    </entry>
+</feed>
