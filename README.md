@@ -1,4 +1,4 @@
-# spytec-saber-website
+# SpyTec.se website in SaberJS
 
 ## Scripts
 
